@@ -1,0 +1,37 @@
+/* body{
+    background: linear-gradient(#cec3fd 0% , #38368f 100%); }  */
+
+h1{
+    background: linear-gradient(#5af8a9 0% , #919afa 100% ) ; 
+    color: darkmagenta;
+}
+#showSketch{
+    float: right;
+    background: linear-gradient(#5e92f2 0% , #4c3df8 100%);
+}
+
+p{
+font-size: 25px;
+padding-top: 10px;
+}
+
+#Clear {
+    background: linear-gradient(#c40101 0% , #850402 100%);
+    color: blanchedalmond;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+canvas{
+    border: 5px solid snow;
+    border-radius: 20cm;
+    animation-name: cutiehehe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes cutiehehe{
+    from {box-shadow: 1px 1px 30px #030251;}
+    to {box-shadow: 1px 1px 50px #929af6 ;}
+}
